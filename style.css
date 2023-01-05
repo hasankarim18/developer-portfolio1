@@ -32,6 +32,7 @@ button {
     --dark1: #181818;
     --dark2: #474747;
     --dark3: #757575;
+    --dark5: ##D1D1D1;
     --orrang1: #FD6E0A;
     --orrang1hover: #c25406;
     --bgprimary: #FFF8F3;
@@ -46,6 +47,7 @@ h1,h2,h3,h4,h5,h6{
 
 a{
     font-size: 20px;
+    text-decoration: none;
 }
 
 .text-dark1{
@@ -283,4 +285,123 @@ main{
 
 /* Resume styles */
 
+.resume{
+    padding-bottom: 113px;
+}
 
+.resume-content{
+    gap: 20px;
+}
+
+.resume-title{
+    font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 41px;
+        color:var(--dark2)
+}
+
+.resume-box{
+    padding: 30px;
+    padding-left: 0;
+    border-bottom: 1px solid #D1D1D1;
+}
+
+.resume-box:last-of-type {
+    padding: 30px;
+    padding-left: 0;
+    border-bottom: none;
+}
+.resume-box h4{
+    font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 34px;
+        color: var(--dark2);
+        margin-bottom: 10px;
+}
+.resume-box h5{
+    font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 27px;
+        color: var(--dark3);
+        margin-bottom: 20px;
+}
+.resume-box p{
+    font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        color: var(--dark3);
+}
+
+.cv_download{
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+/* contact */
+
+.contact-main{
+    background-color: var(--bgprimary);
+}
+
+.contact{
+    display: flex;
+  
+    gap: 100px;
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+.connect p{
+    margin-bottom: 20px;
+}
+
+
+
+.contact .section-title{
+    text-align: left;
+    font-size: 35px;
+}
+
+.contact .message .input{
+    display: block;
+    background-color: #fff;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 30px;
+    margin-bottom: 24px;
+    width: 100%;
+
+}
+
+.contact .message .input:focus{
+    outline:none;
+}
+
+.contact .message textarea{
+    background-color: #fff;
+    margin-bottom: 24px;
+        width: 100%;
+        padding-top: 18px;
+        padding-bottom: 18px;
+            padding-left: 30px;
+            border:none;
+}
+
+.contact .message textarea:focus {
+    outline: none;
+}
+
+
+.contact .message input{
+    border: none;
+    cursor:pointer;
+}
